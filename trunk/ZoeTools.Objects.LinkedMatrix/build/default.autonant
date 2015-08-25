@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<autonant name="ZoeTools.Objects.LinkedMatrix">
+	<description>A double-linked matrix.</description>
+	<output type="library" language="boo">ZoeTools.Objects.LinkedMatrix.dll</output>
+</autonant>

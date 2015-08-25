@@ -1,0 +1,34 @@
+2007-03-12  Tamara Roberson  <tamara.roberson@gmail.com>
+	* ZoeTools.Algorithms.DancingLinks/src/DLX.boo:
+	[Getter (TotSolutions)] -> [Property (TotSolutions)]
+
+
+2007-03-10  Tamara Roberson  <tamara.roberson@gmail.com>
+	A  ZoeTools.Tools.Hasher
+	A  ZoeTools.Tools.Hasher/test
+	A  ZoeTools.Tools.Hasher/test/HashGeneratorTest
+	A  ZoeTools.Tools.Hasher/test/HashGeneratorTest/src
+	A  ZoeTools.Tools.Hasher/test/HashGeneratorTest/src/HashGeneratorTest.boo
+	A  ZoeTools.Tools.Hasher/build
+	A  ZoeTools.Tools.Hasher/build/AutoNant
+	A  ZoeTools.Tools.Hasher/build/default.autonant
+	A  ZoeTools.Tools.Hasher/default.build
+	A  ZoeTools.Tools.Hasher/src
+	A  ZoeTools.Tools.Hasher/src/HashGenerator.boo
+	A  ZoeTools.Tools.Hasher/src/HashGenerator-Events.boo
+	A  ZoeTools.Tools.Hasher/src/AbortedException.boo
+	A  ZoeTools.Tools.Hasher/src/Utils.boo
+
+	Add ZoeTools.Tools.Hasher.
+
+
+2007-03-09  Tamara Roberson  <tamara.roberson@gmail.com>
+	R  Changelog
+	A  ChangeLog
+
+	Oops.
+
+
+2007-03-09  Tamara Roberson  <tamara.roberson@gmail.com>
+	Initial import.	
+

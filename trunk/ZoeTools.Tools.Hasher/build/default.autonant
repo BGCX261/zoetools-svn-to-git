@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<autonant name="ZoeTools.Tools.Hasher">
+	<description>Library for hashing files.</description>
+	<output type="library" language="boo">ZoeTools.Tools.Hasher.dll</output>
+</autonant>

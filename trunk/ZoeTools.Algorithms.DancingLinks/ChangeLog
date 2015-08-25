@@ -1,0 +1,75 @@
+2007-11-30  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	* default.build
+
+	Regenerate.  Now includes "boo_tasks" property.  You may have to edit
+	this to point to your 'Boo.NAnt.Tasks.dll' library.
+
+	* build/default.autonant
+
+	Removed whitespace.
+
+
+2007-11-30  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	D build/AutoNant
+	A build/autonant
+	* default.build
+
+	We're back!  Standardized to lower-case, symlink and name changed for
+	autonant.
+
+
+2007-03-19  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	D src/DLX.boo:
+	* src/DLXMatrix.boo:
+
+	Merged DLX and DLXMatrix.
+
+
+2007-03-19  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	* src/DLX.boo:
+
+	Remove LoadInputFile().
+
+
+	* src/DLXMatrix.boo:
+
+	Cleanup.  Move a couple methods around.
+
+
+2007-03-19  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	* src/DLX.boo:
+
+	Replace Solve() with SolveRecursive().  Remove
+	PrintSolution().  Add GotSolutionEvent.
+
+
+2007-03-19  Tamara Roberson  <tamara.roberson@gmail.com>
+	* src/DLX.boo:
+
+	Rip out extra solve methods (silent and StopAt).
+	We are going to move to events soon.
+
+
+2007-03-18  Tamara Roberson  <tamara.roberson@gmail.com>
+	* src/DLX.boo:
+
+	A little more cleanup.  What's with these enumerators?
+
+
+2007-03-16  Tamara Roberson  <tamara.roberson@gmail.com>
+	* src/DLX.boo:
+
+	Some cleanup.  Requires boo with generic support,
+	which is currently SVN-only.
+
+
+	* ChangeLog:
+
+	Created module specific ChangeLog.  See root ChangeLog for
+	older news.
+

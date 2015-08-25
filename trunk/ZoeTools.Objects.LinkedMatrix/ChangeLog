@@ -1,0 +1,28 @@
+2007-11-30  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	* default.build
+
+	Regenerate.  Now includes "boo_tasks" property.  You may have to edit
+	this to point to your 'Boo.NAnt.Tasks.dll' library.
+
+
+2007-11-30  Tamara Roberson  <tamara.roberson@gmail.com>
+
+	D build/AutoNant
+	A build/autonant
+	* default.build
+
+	We're back!  Standardized to lower-case, symlink and name changed for
+	autonant.
+
+
+2007-03-16  Tamara Roberson  <tamara.roberson@gmail.com>
+	* src/Matrix.boo:
+
+	Refactored and added some parameter requirements.
+
+	* ChangeLog:
+
+	Created module specific ChangeLog.  See root ChangeLog for
+	older news.
+

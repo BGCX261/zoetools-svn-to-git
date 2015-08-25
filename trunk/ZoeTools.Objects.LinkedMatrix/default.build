@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="ZoeTools.Objects.LinkedMatrix" default="build" basedir=".">
+  <description>A double-linked matrix.</description>
+  <property name="base.dir" overwrite="false" value="${project::get-base-directory()}"/>
+  <property name="filename" overwrite="false" value="default.autonant"/>
+  <property name="build.dir" value="${path::combine (base.dir, 'build')}"/>
+  <property name="autonant-buildfile" value="${build.dir}/autonant/default.build"/>
+  <property name="buildfile" value="${filename}.build"/>
+  <property name="buildfile_path" value="${path::combine (build.dir, buildfile)}"/>
+  <property name="has_externals" value="false"/>
+  <property name="boo_tasks" value="/usr/local/lib/boo/Boo.NAnt.Tasks.dll"/>
+  <target name="autonant-build">
+    <nant target="build" buildfile="${autonant-buildfile}"/>
+  </target>
+  <target name="autonant-clean">
+    <nant target="clean" buildfile="${autonant-buildfile}"/>
+  </target>
+  <target name="build" depends="autonant-build">
+    <nant target="build" buildfile="${buildfile_path}"/>
+  </target>
+  <target name="clean" depends="autonant-build">
+    <nant target="clean" buildfile="${buildfile_path}"/>
+    <call target="autonant-clean"/>
+  </target>
+</project>

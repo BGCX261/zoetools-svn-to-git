@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<autonant name="ZoeTools.Algorithms.DancingLinks">
+	<description>Implementation of Knuth's Dancing Links Algorithm (DLX)</description>
+	<output type="library" language="boo">ZoeTools.Algorithms.DancingLinks.dll</output>
+	<externals>
+		<module type="dll">ZoeTools.Objects.LinkedMatrix</module>
+	</externals>
+</autonant>
